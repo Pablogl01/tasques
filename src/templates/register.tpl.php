@@ -10,7 +10,7 @@
   <form action="?url=regaction" method="post">
     <p>Nombre: <?php echo $_COOKIE["nombre"] ?></p>
     <p>Contraseña: <input type="password" name="password"></p>
-    <p>Repetir contraseña: <input type="password2" name="password2"></p>
+    <p>Repetir contraseña: <input type="password" name="password2"></p>
     <p>Email: <input type="text" name="email"></p>
     <br>
     <button type="submit" value="Enviar" >Ejecutar</button>
